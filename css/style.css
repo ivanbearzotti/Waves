@@ -242,6 +242,43 @@ footer{
     padding: 0 10px;
 }
 
+/* OTHER PAGES */
+
+.main-grid-pages{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+    "explicacion"
+    "articulo";
+    margin: 1.5rem 3rem 2rem 3rem;
+    gap: 1.5rem;
+}
+
+.explicacion{
+    grid-area: explicacion;
+}
+
+.articulo{
+    grid-area: articulo;
+    background-color: #2f2f2f;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.avatar-datos{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img{
+    width: 80%;
+}
+
+.entrevista{
+    margin-top: 2rem;
+}
+
 /* MEDIA QUERYS */
 
 @media(max-width: 768px){
