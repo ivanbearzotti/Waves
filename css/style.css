@@ -450,4 +450,8 @@ footer{
         top: 3.5em;
         font-size: 1.3rem;
     }
+
+    .navbar li a{
+        font-size: 1.3rem;
+    }
 }
