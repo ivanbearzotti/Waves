@@ -7,6 +7,8 @@
     <title>Waves | About us</title>
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../assets/img/index/logo.png">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -31,10 +33,37 @@
 
     <main>
         <div class="main-grid-about">
-            <section class="about-container banner">
-                <img src="../assets/img/about-us/about.png" alt="We are Waves">
+            <section class="about-container">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active banner" data-bs-interval="10000">
+                            <img src="../assets/img/about-us/about1.jpg" class="d-block w-100 rounded-4" alt="Banner de Surfer">
+                            <h2>We are Waves</h2>
+                            <p>Waves is the first world’s community that helps you to find your favourite water sport in a few minutes.</p>
+                        </div>
+                        <div class="carousel-item banner" data-bs-interval="2000">
+                            <img src="../assets/img/about-us/about2.jpg" class="d-block w-100 rounded-4" alt="Banner de Surfer">
+                            <h2>We are Waves</h2>
+                            <p>Waves is the first world’s community that helps you to find your favourite water sport in a few minutes.</p>
+                        </div>
+                        <div class="carousel-item banner">
+                            <img src="../assets/img/about-us/about3.jpg" class="d-block w-100 rounded-4" alt="Banner de Surfer">
+                            <h2>We are Waves</h2>
+                            <p>Waves is the first world’s community that helps you to find your favourite water sport in a few minutes.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- <img src="../assets/img/about-us/about.png" alt="We are Waves">
                 <h2>We are Waves</h2>
-                <p>Waves is the first world’s community that helps you to find your favourite water sport in a few minutes.</p>
+                <p>Waves is the first world’s community that helps you to find your favourite water sport in a few minutes.</p> -->
             </section>
             <section class="team-container">
                 <div class="meet-container">
@@ -104,5 +133,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
 </body>
 </html>
