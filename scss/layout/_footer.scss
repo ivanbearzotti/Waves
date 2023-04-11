@@ -1,0 +1,55 @@
+.footer-grid{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "information pages newsletter";
+    padding: 2rem 3rem 2rem 3rem;
+    gap: 2rem;
+    justify-content: space-between;
+    .information{
+        grid-area: information;
+        .logo-container{
+            @include logo-container;
+        }
+        .descripcion-footer{
+            margin: 10px 0px;
+        }
+        .redes-footer{
+            display: flex;
+            gap: 10px;
+        }
+    }
+    .pages{
+        grid-area: pages;
+    }
+    .newsletter{
+        grid-area: newsletter;
+        .form-container{
+            .formulario{
+                display: flex;
+                margin: 10px 0;
+                gap: 5px;
+                input{
+                    background-color: #2f2f2f;
+                    border-radius: 5px;
+                    font-family: swis;
+                    font-size: 1.5rem;
+                    border-width: 0;
+                    text-indent: 5px;
+                    padding: 5px;
+                    color: white;
+                }
+                button{
+                    background-color: #2f2f2f;
+                    border-radius: 5px;
+                    font-family: coolvetica;
+                    font-size: 1.5rem;
+                    color: white;
+                    border-width: 0;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}

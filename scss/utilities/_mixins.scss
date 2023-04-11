@@ -1,0 +1,30 @@
+@mixin logo-container{
+    display: flex;
+        grid-area: logo-container;
+        align-items: center;
+        gap: 1rem;
+    img{
+        width: 4.5rem;
+        height: auto;
+    }
+}
+
+@mixin banner{
+    position: relative;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        margin: 0 4rem 0 4rem;
+        position: absolute;
+        top: 0.4em;
+        font-size: 6rem;
+    }
+    p{
+        margin: 0 4rem 0 4rem;
+        position: absolute;
+        top: 3.2em;
+        font-size: 3rem;
+    }
+}
