@@ -85,7 +85,38 @@
         justify-content: center;
     }
 
+    .main-grid-pages{
+        .explicacion{
+            h2{
+                margin: 0 2rem 0 2rem;
+                position: absolute;
+                top: 0.4em;
+                font-size: 3rem;
+            }
+            p{
+                margin: 0 2rem 0 2rem;
+                position: absolute;
+                top: 3em;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
     .main-grid-about{
+        .about-container{
+            h2{
+                margin: 0 2rem 0 2rem;
+                position: absolute;
+                top: 0.4em;
+                font-size: 3rem;
+            }
+            p{
+                margin: 0 2rem 0 2rem;
+                position: absolute;
+                top: 3em;
+                font-size: 1.6rem;
+            }
+        }
         .team-container{
             .people-container{
                 .people-container-grid{
@@ -122,6 +153,28 @@
 
     .main-grid{
         .banner{
+            p{
+                margin: 0 2rem 0 2rem;
+                position: absolute;
+                top: 3.5em;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .main-grid-pages{
+        .explicacion{
+            p{
+                margin: 0 2rem 0 2rem;
+                position: absolute;
+                top: 3.5em;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .main-grid-about{
+        .about-container{
             p{
                 margin: 0 2rem 0 2rem;
                 position: absolute;
