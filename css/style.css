@@ -74,6 +74,7 @@ footer {
 .header-grid .logo-container img {
   animation: rotate 2s linear infinite;
   animation-iteration-count: 1;
+  animation-delay: 2s;
 }
 .header-grid .nav {
   display: flex;
