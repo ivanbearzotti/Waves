@@ -8,6 +8,10 @@
     margin: 2rem 3rem 1rem 3rem;
     .logo-container{
         @include logo-container;
+        img{
+            animation: rotate 2s linear infinite;
+            animation-iteration-count: 1;
+        }
     }
     .nav{
         display: flex;
@@ -22,5 +26,14 @@
                 color: white;
             }
         }
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }

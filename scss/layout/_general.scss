@@ -3,25 +3,25 @@ html{
 }
 
 h1{
-    font-family: coolvetica;
+    font-family: $fuente-principal;
     color: white;
     font-size: 4rem;
 }
 
 h2{
-    font-family: coolvetica;
+    font-family: $fuente-principal;
     color: white;
     font-size: 3rem;
 }
 
 h3{
-    font-family: coolvetica;
+    font-family: $fuente-principal;
     color: white;
     font-size: 2rem;
 }
 
 p{
-    font-family: swis;
+    font-family: $fuente-secundaria;
     color: white;
     font-size: 1.6rem;
 }
@@ -31,9 +31,9 @@ a{
 }
 
 body{
-    background-color: #1b1b1b;
+    background-color: $background-principal;
 }
 
 footer{
-    background-color: black;
+    background-color: $background-secundario;
 }

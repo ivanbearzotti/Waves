@@ -71,6 +71,10 @@ footer {
   width: 4.5rem;
   height: auto;
 }
+.header-grid .logo-container img {
+  animation: rotate 2s linear infinite;
+  animation-iteration-count: 1;
+}
 .header-grid .nav {
   display: flex;
   grid-area: nav;
@@ -86,6 +90,14 @@ footer {
   color: white;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .main-grid {
   display: grid;
   grid-template-rows: repeat(2, auto);
